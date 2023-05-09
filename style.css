@@ -1,13 +1,19 @@
-button {
-	font-size: 24px;
-	padding: 10px 20px;
-	background-color: #4CAF50;
-	color: white;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
+canvas {
+	background-color: white;
+	border: 1px solid black;
 }
 
-button:hover {
-	background-color: #3e8e41;
+.white-key {
+	fill: white;
+	stroke: black;
+}
+
+.black-key {
+	fill: black;
+	stroke: black;
+}
+
+.key-highlight {
+	fill: yellow;
+	opacity: 0.5;
 }
